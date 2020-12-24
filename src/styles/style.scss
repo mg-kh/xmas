@@ -1,0 +1,34 @@
+@import "./variable";
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+     background-color: $BACKGROUND_COLOR;
+     overflow: hidden;
+     width: 100%;
+     height: 100vh;
+     font-family: 'Luckiest Guy', cursive;
+}
+
+.hero__text {
+     text-align: center;
+     color: $TEXT_COLOR;
+     font-size: 20px;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     top: 50%;
+     left: 50%;
+     opacity: 0;
+
+     span : {
+          display: inline-block;
+     }
+}
+
+.snow_container {
+     svg {
+          width: 100%;
+          height: 100%;
+     }
+
+     position: absolute;
+}
