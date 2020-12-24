@@ -1,7 +1,7 @@
 import {snow_1 , snow_2 , snow_3 , snow_4 , snow_5 , snow_6} from './svg'
 const $ = require('jquery')
+var frag = $(document.createDocumentFragment());
 export const snowFall =  function makeSnow(){
-     var frag = $(document.createDocumentFragment());
      for(let i =1 ; i <= 10; i++){
           const widowWidth = $(window).innerWidth();
           const posTop = Math.floor(Math.random() * (500 - 1 + 1)) -400;
