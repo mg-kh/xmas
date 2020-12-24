@@ -24,6 +24,5 @@ export const snowFall =  function makeSnow(){
           div.append(snow_6);
           frag.append(div);
      }
-     console.log(frag);
      $('body').append(frag)
 }
