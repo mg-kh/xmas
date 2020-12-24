@@ -1,6 +1,6 @@
 const path = require('path');
 module.exports = {
-     watch : false,
+     watch : true,
      entry : [
           './src/scripts/index.js'
      ],
